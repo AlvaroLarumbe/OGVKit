@@ -335,7 +335,8 @@ static BOOL OGVPlayerViewDidRegisterIconFont = NO;
 
 -(void)appDidEnterBackground:(id)obj
 {
-    [self pause];
+    // Allow background music playing
+    //[self pause];
 }
 
 -(void)stopTimeTimer
